@@ -4,3 +4,9 @@
 Information("Hello world");
 
 InstallTool("dotnet:?package=Cake.Tool&version=6.0.0");
+
+
+InstallTools(
+    "dotnet:https://api.nuget.org/v3/index.json?package=GitVersion.Tool&version=5.12.0",
+    "dotnet:https://api.nuget.org/v3/index.json?package=GitReleaseManager.Tool&version=0.20.0"
+);

@@ -1,15 +1,15 @@
 {
   "$schema": "https://docs.renovatebot.com/renovate-schema.json",
   "cake": {
-    "fileMatch": ['/(^|/)(cake|build)\\.cs$/']
+    "fileMatch": ["/(^|/)(cake|build)\\.cs$/"]
   },
   "nuget": {
      "fileMatch": [
-      '/\\.(?:cs|fs|vb)proj$/',
-      '/\\.(?:props|targets)$/',
-      '/(^|/)dotnet-tools\\.json$/',
-      '/(^|/)global\\.json$/',
-      '/(^|/)(cake|build)\\.cs$/'
+      "/\\.(?:cs|fs|vb)proj$/",
+      "/\\.(?:props|targets)$/",
+      "/(^|/)dotnet-tools\\.json$/",
+      "/(^|/)global\\.json$/",
+      "/(^|/)(cake|build)\\.cs$/"
     ]
   }
 }

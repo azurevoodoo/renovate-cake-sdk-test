@@ -1,4 +1,4 @@
-#:sdk Cake.Sdk@5.1.25296.94-beta
+#:sdk Cake.Sdk@6.0.0
 #:package Cake.Git@4.0.0
 
 Information("Hello world");

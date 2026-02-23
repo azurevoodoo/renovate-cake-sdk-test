@@ -2,7 +2,7 @@
   "$schema": "https://docs.renovatebot.com/renovate-schema.json",
   "cake": {
     "fileMatch": ['/(^|/)(cake|build)\\.cs$/']
-  }
+  },
   "nuget": {
      "fileMatch": [
       '/\\.(?:cs|fs|vb)proj$/',
